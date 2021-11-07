@@ -1,0 +1,219 @@
+:root {
+   --first-text-color: #212121;
+  --second-text-color: #757575;
+  --footer-contacts: #ffffff99 60%;
+  --title-color: #ffffff;
+  --accent-color: #2196f3;
+  --logo-color: #000000;
+  --logo-accent-color: #2196F3;
+  --background-color-dark: #2F303A;
+  --background-color-ligth : #FFFFFF;
+  --background-color-medium: #F5F4FA;  
+  --border-color: #EEEEEE;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #757575;
+  background-color:var(--background-color-ligth);
+}
+
+.header {
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo {
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31;
+letter-spacing: 0.03em;
+color: var(--logo-color);
+
+}
+
+.logo-accent {
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31;
+letter-spacing: 0.03em;
+color:var(--logo-accent-color)
+
+}
+
+.header-link {
+  font-weight: 500;
+font-size: 14px;
+line-height: 16;
+letter-spacing: 0.02em;
+  color: var(--first-text-color);
+
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+  
+} 
+
+.header-email {
+ font-weight: 500;
+font-size: 14px;
+line-height: 16;
+letter-spacing: 0.02em;
+  color: var(--second-text-color);
+
+}
+
+.header-email:hover,
+.header-email:focus {
+  color: var(--accent-color);
+ 
+}
+
+.header-tel {
+    font-weight: 500;
+font-size: 14px;
+line-height: 16;
+letter-spacing: 0.02em;
+  color: var(--second-text-color);
+  
+}
+
+.header-tel:hover,
+.header-tel:focus {
+color: var(--accent-color);
+
+}
+
+.promo-section {
+background-color: var(--background-color-dark);
+}
+
+.title-text {
+font-weight: 900;
+font-size: 44px;
+line-height: 60;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--title-color);
+}
+
+.botton {
+font-weight: bold;
+font-size: 16px;
+line-height: 30;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+cursor: pointer;
+color:var(--first-text-color);
+background-color:var(--background-color-medium);
+border-color:transparent;
+}
+
+.botton:hover, 
+.botton:focus {
+ background-color: var(--accent-color); 
+ color: #ffffff;  
+}
+
+.about-us-title {
+font-weight: bold;
+font-size: 14px;
+line-height: 16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--first-text-color);
+
+}
+
+.about-us-text {
+font-size: 14px;
+line-height: 24;
+letter-spacing: 0.03em:
+color: var(--second-text-color);
+}
+
+.section-title {
+font-weight: bold;
+font-size: 36px;
+line-height: 42;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--first-text-color);
+}
+
+.our-team {
+background-color: var(--background-color-medium);
+}
+
+.team-member-card {
+   
+}
+.team-member-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--first-text-color);
+}
+
+.team-member-speciality {
+font-size: 16px;
+line-height: 19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--second-text-color);
+}
+
+.footer {
+background-color: var(--background-color-dark);
+}
+
+.adress {
+font-size: 14px;
+line-height: 24;
+letter-spacing: 0.03em;
+color:var(--title-color);
+}
+.footer-tel {
+font-size: 14px;
+line-height: 24;
+letter-spacing: 0.03em;
+color: var(--footer-contacts);
+}
+
+.footer-email {
+font-size: 14px;
+line-height: 24;
+letter-spacing: 0.03em;
+color: var(--footer-contacts);
+}
+
+.project {
+border-color: var(--border-color);
+}
+
+.project-name {
+font-size: 18px;
+line-height: 36;
+letter-spacing: 0.06em;
+color: var(--first-text-color);
+}
+
+.project-type {
+font-size: 16px;
+line-height: 30;
+letter-spacing: 0.03em;
+color: var(--second-text-color);
+}
